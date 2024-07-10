@@ -1,0 +1,127 @@
+/*external File*/
+/*global selector */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Cairo;
+}
+div {
+  background-color: rgb(50, 33, 69);
+  color: #ddd;
+  padding: 20px;
+}
+
+h1 {
+  letter-spacing: -2px;
+  /* font-family: "Anton SC", sans-serif; */
+}
+#products {
+  color: #000;
+  width: 500px;
+  min-width: 300px;
+  background-color: transparent;
+  /* margin: 30px; */
+  /* margin-top: 20px;
+	margin-bottom: 20px; */
+  margin: 50px auto;
+  border: 5px double;
+  min-height: 100px;
+  /* font-weight: bold; */
+  /* font-style: italic; */
+  /* overflow: scroll; */
+}
+p {
+  color: #000;
+  font-size: 15px;
+  /* padding: 20px; */
+  /*Top right bottom left*/
+}
+
+div > span {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #668003;
+  /* margin-top: 150px;
+	margin-bottom: 150px; */
+}
+
+/* #products p { */
+/* width: 50%; */
+/* height: 400px; */
+/* } */
+
+/*Css Selectors*/
+/* #header {
+	background-color: #131842;
+	color: #ddd;
+}
+
+#products {
+	background-color: #dfdcdc;
+}
+
+h1.content {
+	background-color: #383538;
+}
+p.content {
+	background-color: #e68369;
+	color: #000;
+	font-size: 20px;
+}
+
+.customP {
+	padding: 20px;
+	margin: 20px;
+	border: 5px solid;
+}
+
+div > span {
+	background-color: #668003;
+}
+
+div.content {
+	background-color: #668003;
+} */
+
+/* div :first-child {
+	background-color: red;
+} */
+
+/*Css Specifity*/
+/* div#products {
+	background-color: red;
+} */
+
+/*
+ colorName
+ hexiadecimal
+ rgb
+ rgba
+*/
+/* div > span {
+	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	background-color: #000000;
+	background-color: #000;
+	color: red;
+} */
+
+button {
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  border: none;
+  font-weight: bold;
+  background-color: #e66434;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #82290b;
+  color: #fff;
+}
