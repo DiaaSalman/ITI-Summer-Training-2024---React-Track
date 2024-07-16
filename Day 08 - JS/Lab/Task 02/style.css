@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f5f5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main .container {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 32px;
+  color: #0f052d;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4719de;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.next-btn {
+  position: absolute;
+  right: -96px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev-btn {
+  position: absolute;
+  left: -96px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.auto-play-container {
+  margin-top: 32px;
+}
+
+.play {
+  background-color: #0f052d;
+}
+
+.stop {
+  background-color: #f44336;
+}

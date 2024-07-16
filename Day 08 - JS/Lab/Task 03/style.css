@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f5f5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main .container {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 32px;
+  color: #0f052d;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0f052d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.error-btn {
+  background-color: #cc2d25;
+}
+
+.success-btn {
+  background-color: #279a44;
+}
+
+.message {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  border: 2px solid #0f052d;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.message.error {
+  border-color: #cc2d25;
+  background-color: #cc2d2510;
+  display: none;
+}
+
+.message.success {
+  border-color: #279a44;
+  background-color: #279a4410;
+  display: none;
+}
+
+.message img {
+  width: 40px;
+}
+
+.message .text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.message .text h2 {
+  font-size: 22px;
+  color: #0f052d;
+}
+
+.message .text p {
+  font-size: 16px;
+  color: #0f052d;
+}
