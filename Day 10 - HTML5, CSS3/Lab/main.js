@@ -7,7 +7,7 @@ if (savedColor) {
   colorInput.value = savedColor
 }
 
-colorInput.addEventListener('change', () => {
+colorInput.addEventListener('input', () => {
   const selectedColor = colorInput.value
   body.style.backgroundColor = selectedColor
 

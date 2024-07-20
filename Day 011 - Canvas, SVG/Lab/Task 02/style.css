@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #161C2D;
+  background-color: #f4f7fa;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  opacity: 1;
+  transition: opacity 5s;
+  width: 400px;
+}
+
+img:hover {
+  opacity: 0;
+}
