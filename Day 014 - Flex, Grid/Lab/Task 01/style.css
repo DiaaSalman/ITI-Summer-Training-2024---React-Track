@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f5f5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main .container {
+  max-width: 620px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  /* background-color: #fff; */
+  border-radius: 16px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1d020a;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  background-color: #03bfb1;
+  color: #fff;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  height: 320px;
+}
+
+aside {
+  flex-basis: 30%;
+  align-content: center;
+  text-align: center;
+  background-color: #6edb6e;
+  color: #fff;
+  padding: 16px;
+}
+
+article {
+  flex-basis: 70%;
+  align-content: flex-end;
+  text-align: center;
+  background-color: #fbb04b;
+  color: #fff;
+  padding: 16px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.images figure {
+  align-content: center;
+  height: 124px;
+  width: 100%;
+  background-color: #fcd24a;
+  text-align: center;
+}

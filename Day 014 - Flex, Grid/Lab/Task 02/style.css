@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f5f5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main .container {
+  max-width: 620px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1d020a;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.layout {
+  width: 100%;
+  display: grid;
+  gap: 16px;
+}
+
+header,
+footer {
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  padding: 16px;
+  background-color: #03bfb1;
+  color: #fff;
+  width: 100%;
+}
+
+section {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 30% 1fr;
+  height: 320px;
+}
+
+aside {
+  text-align: center;
+  align-content: center;
+  background-color: #6edb6e;
+  color: #fff;
+}
+
+article {
+  text-align: center;
+  align-content: end;
+  padding: 16px;
+  background-color: #fbb04b;
+  color: #fff;
+}
+
+.images {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  margin-top: 24px;
+}
+
+.images figure {
+  height: 124px;
+  background-color: #fcd24a;
+  color: #fff;
+  align-content: center;
+}
