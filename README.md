@@ -17,6 +17,7 @@ Welcome to the Summer Training at ITI! This folder contains all the content and 
 - [Day 011]: Canvas & SVG
 - [Day 012]: ES6
 - [Day 013]: ES6 [Promises, API Handling]
-- [Day 014]: Flex, Grid & Intro to Bootsrtab
+- [Day 014]: Flex, Grid & Intro to Bootsrtap
+- [Day 015]: Bootsrtap Template
 
 Feel free to explore each day's folder to access the relevant materials and tasks.
